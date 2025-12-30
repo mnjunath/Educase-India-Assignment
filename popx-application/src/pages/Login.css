@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+}
+
+.app-root {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.mobile-frame {
+    width: 375px;
+    height: 812px;
+    background: #f7f8f9;
+    box-shadow: 0 0 0 1px #00000008;
+    overflow: auto;
+    border: 1px solid #e7e8e9;
+}
+
+.page {
+    padding: 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.main-heading {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 17px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: 1;
+}
+
+.page .main-heading {
+    margin-top: 40px;
+    width: 188px;
+    height: 69px;
+    text-align: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: 1;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.secondary-text {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: .6;
+    margin-top: 10px;
+}
+
+.page .secondary-text {
+    text-align: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Rubik, sans-serif;
+    margin-top: 14px;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: .6;
+}
+
+.page .inputdiv {
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+
+.inp-wrap {
+    position: relative;
+    margin-top: 29px;
+}
+
+label {
+    cursor: default;
+}
+
+.inp-label {
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    background: #f7f8f9;
+    padding: 0 6px;
+    display: inline-block;
+    font-size: 13px;
+    color: #6c25ff;
+}
+
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em 0em 0em 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.inp-field {
+    width: 335px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #CBCBCB;
+    background: #f7f8f9;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #1d2226;
+}
+
+button {
+    appearance: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em 0em 0em 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+button:disabled {
+    background-color: light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    color: light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    border-color: light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+}
+
+.btn {
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0px;
+}
+
+.btn.disabled {
+    background: #cbcbcb;
+    color: #fff;
+    cursor: not-allowed;
+}
