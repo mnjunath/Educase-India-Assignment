@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { useRef, useState } from "react";
-import "./profile.css";
+import "./Profile.css";
 
 export default function Profile() {
   const location = useLocation();
